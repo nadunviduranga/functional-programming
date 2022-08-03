@@ -18,7 +18,7 @@ object Question01 extends App {
   }
 
   // calculate total amount after year
-  def calculateTotal(depositeValue : Int): Double = depositeValue + calculateInterest(depositeValue);
+  //def calculateTotal(depositeValue : Int): Double = depositeValue + calculateInterest(depositeValue);
 
   printf("Toatal earn interest value : Rs.%.2f",calculateInterest(depositeValue));
   //printf("Total value after one year : Rs.%.2f",calculateTotal(depositeValue));

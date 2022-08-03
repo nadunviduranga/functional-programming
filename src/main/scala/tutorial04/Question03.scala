@@ -19,6 +19,7 @@ object Question03 extends  App{
   var name3 = "Kumara";
   var name4 = name3.substring(5);
 
+
   println(formNames("Benny")(toUpper(_)));
   println(formNames(name2)(toUpper(_))+"roshan");
   println(formNames("Saman")(toLower(_)));
